@@ -1,0 +1,15 @@
+.statList {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin-right: 10px;
+}
+
+.label {
+  display: block;
+}
+.percentage {
+  display: block;
+}
