@@ -1,11 +1,24 @@
 @import-normalize;
 
+:root {
+  --shadow: 0px 10px 13px -7px #000000, 2px 6px 14px 7px rgba(0, 0, 0, 0.33);
+}
+
 /* rest of app styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Остальной код */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #dcdcdc;
 }
 
 code {
@@ -13,14 +26,28 @@ code {
 }
 
 .container {
-  max-width: 1170px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   text-align: center;
+  /* background-color: yellow; */
 }
 
 ul {
   list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+img {
+  /* display: block; */
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+h2 {
+  margin: 0;
 }

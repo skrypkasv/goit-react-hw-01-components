@@ -1,0 +1,28 @@
+table {
+  width: 500px;
+  margin: 30px auto;
+  box-shadow: var(--shadow);
+}
+
+table,
+tr,
+th,
+td {
+  padding: 10px;
+  border: 2px solid skyblue;
+  border-collapse: collapse;
+}
+
+thead {
+  color: azure;
+  background-color: #343a40;
+}
+tbody {
+  font-weight: 500;
+  background-color: #707477;
+}
+
+tbody tr:hover,
+tbody tr:focus {
+  background-color: rgb(114, 166, 170);
+}
