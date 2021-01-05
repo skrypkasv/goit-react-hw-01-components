@@ -1,17 +1,15 @@
 @import-normalize;
 
+/* rest of app styles */
 :root {
   --shadow: 0px 10px 13px -7px #000000, 2px 6px 14px 7px rgba(0, 0, 0, 0.33);
 }
 
-/* rest of app styles */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
-/* Остальной код */
 
 body {
   margin: 0;
@@ -31,7 +29,6 @@ code {
   margin-right: auto;
   padding: 0 15px;
   text-align: center;
-  /* background-color: yellow; */
 }
 
 ul {
@@ -42,7 +39,6 @@ ul {
 }
 
 img {
-  /* display: block; */
   max-width: 100%;
   height: auto;
 }
